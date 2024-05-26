@@ -26,5 +26,12 @@ public class Api_Test {
 	{
 		System.out.println("Test RestAPI through ARD");
 	}
+	
+	public static void AllStatusCode()
+	{
+		System.out.println("Validate all status code");
+	}
+	
+	
 
 }
