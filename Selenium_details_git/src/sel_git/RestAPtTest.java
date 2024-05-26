@@ -7,6 +7,9 @@ public class RestAPtTest {
 		System.out.println("Rest Api testing 1");
 		System.out.println("Rest Api testing 2");
 		
+		System.out.println("Rest Api testing 3");
+		System.out.println("Rest Api testing 4");
+		
 
 	}
 
