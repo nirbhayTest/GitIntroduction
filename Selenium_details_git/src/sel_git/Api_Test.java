@@ -12,7 +12,19 @@ public class Api_Test {
 		System.out.println("Api testing 3");
 		System.out.println("Api testing 4");
 		
+		NewApi();
+		OldApi();	
 
+	}
+	
+	public static void NewApi()
+	{
+		System.out.println("Test RestAPI through DynaBdd");
+	}
+	
+	public static void OldApi()
+	{
+		System.out.println("Test RestAPI through ARD");
 	}
 
 }

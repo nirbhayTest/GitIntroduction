@@ -10,7 +10,20 @@ public class RestAPtTest {
 		System.out.println("Rest Api testing 3");
 		System.out.println("Rest Api testing 4");
 		
+		NewRestApi();
+		OldRestApi();
+			
 
+	}
+	
+	public static void NewRestApi()
+	{
+		System.out.println("Test RestAPI through DynaBdd");
+	}
+	
+	public static void OldRestApi()
+	{
+		System.out.println("Test RestAPI through ARD");
 	}
 
 }
