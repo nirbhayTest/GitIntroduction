@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Nirbhay.Commoncomponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="DraftTest(failed)" verbose="0">
+    <classes>
+      <class name="Nirbhay.SeleniumFW.DraftTest">
+        <methods>
+          <include name="closingBrowser"/>
+          <include name="OrderPageTest"/>
+          <include name="lauchweb"/>
+          <include name="SubmitOrder"/>
+        </methods>
+      </class> <!-- Nirbhay.SeleniumFW.DraftTest -->
+    </classes>
+  </test> <!-- DraftTest(failed) -->
+  <test thread-count="5" parallel="tests" name="ErrorTest(failed)" verbose="0">
+    <classes>
+      <class name="Nirbhay.SeleniumFW.ErrorValidation">
+        <methods>
+          <include name="closingBrowser"/>
+          <include name="ErrorValidationOnCart"/>
+          <include name="lauchweb"/>
+          <include name="ErrorValidation"/>
+        </methods>
+      </class> <!-- Nirbhay.SeleniumFW.ErrorValidation -->
+    </classes>
+  </test> <!-- ErrorTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
