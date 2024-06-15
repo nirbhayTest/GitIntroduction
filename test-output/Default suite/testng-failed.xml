@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Nirbhay.SeleniumFW.DraftTest">
+      <class name="Nirbhay.SeleniumFW.ErrorValidation">
         <methods>
           <include name="closingBrowser"/>
-          <include name="OrderPageTest"/>
+          <include name="ErrorValidation"/>
           <include name="lauchweb"/>
-          <include name="SubmitOrder" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Nirbhay.SeleniumFW.DraftTest -->
+      </class> <!-- Nirbhay.SeleniumFW.ErrorValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

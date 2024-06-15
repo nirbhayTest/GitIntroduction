@@ -6,14 +6,14 @@
 
 </listeners>
 
-  <test thread-count="5" name="DraftTest">
+  <test thread-count="3" name="DraftTest">
     <classes>
       <class name="Nirbhay.SeleniumFW.DraftTest"/>
       
     </classes>
   </test> <!-- Test -->
   
-  <test thread-count="5" name="ErrorTest">
+  <test thread-count="3" name="ErrorTest">
     <classes>
       <class name="Nirbhay.SeleniumFW.ErrorValidation"/>
       
